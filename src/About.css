@@ -1,0 +1,39 @@
+.about-content {
+    padding-left: 30%;
+    padding-top: 5%;
+    animation: slideleft 1s ease forwards;
+    animation-delay: 0.2s;
+}
+@keyframes slideleft{
+    0%{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+.content {
+    width: 60%;
+    height: 400px;
+    padding: 20px 30px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #DAA06D;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content:hover {
+    background-image: url("coffee-bg.avif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.about-content p {
+    font-size: 20px;
+    padding: 10px;
+}

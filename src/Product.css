@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.car-content{
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.cart-items{
+    background-color: gainsboro;
+    opacity: 0.6;
+    width: 70%;
+}
+.data{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.data ul li{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    
+}
+.data ul li a{
+    font-weight: bolder;
+}
+.data strong{
+    font-size: 20px;
+}
+.data i{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.car-content img{
+    width: 120px;
+    border: 1px solid rgb(90, 86, 86);
+    height: 70px;
+    border-radius: 6px;
+}
+.total-price{
+    text-align: right;
+    padding-right: 15px;
+}
+.total-price b{
+    color: black;
+    font-weight: bolder;
+}
+.total-price h3{
+    color: red;
+}
